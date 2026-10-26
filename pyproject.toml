@@ -1,0 +1,18 @@
+[project]
+name = "ascii-art"
+version = "0.1.0"
+description = "ASCII art project"
+authors = [
+    {name = "Aru", email = "aruzhan.ongarbayeva.study@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = ["requests (>=2.34.2,<3.0.0)", "rich (>=15.0.0,<16.0.0)"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.1.1,<10.0.0)"
+]
